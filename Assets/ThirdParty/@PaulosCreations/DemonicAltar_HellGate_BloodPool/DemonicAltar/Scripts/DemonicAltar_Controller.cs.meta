@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5eeecde2faad9fd45b4ac61d6970f791
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 101442
+  packageName: DemonicAltar HellGate
+  packageVersion: 3.0
+  assetPath: Assets/@PaulosCreations/DemonicAltar_HellGate_BloodPool/DemonicAltar/Scripts/DemonicAltar_Controller.cs
+  uploadId: 594780

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1c1418c33dc51f24d89719f501093e63
+timeCreated: 1504442001
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 101442
+  packageName: DemonicAltar HellGate
+  packageVersion: 3.0
+  assetPath: Assets/@PaulosCreations/DemonicAltar_HellGate_BloodPool/DemonicAltar/Effects/Materials_Textures/Mat_Part_Lightning.mat
+  uploadId: 594780

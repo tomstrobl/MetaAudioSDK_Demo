@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3cf803b8f77cc7a4983ea7f395590b83
+timeCreated: 1504083271
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 101442
+  packageName: DemonicAltar HellGate
+  packageVersion: 3.0
+  assetPath: Assets/@PaulosCreations/DemonicAltar_HellGate_BloodPool/DemonicAltar/Effects/Materials_Textures/Mat_Part_Shards.mat
+  uploadId: 594780

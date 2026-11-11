@@ -1,0 +1,28 @@
+# Normalise line endings for text; Git detects binary files (textures, models, audio) by content.
+* text=auto
+
+# Unity YAML: keep as text, never rewrite line endings inside scenes and assets.
+*.unity    text eol=lf
+*.prefab   text eol=lf
+*.mat      text eol=lf
+*.meta     text eol=lf
+*.controller text eol=lf
+*.anim     text eol=lf
+*.asset    -text
+*.lighting text eol=lf
+*.mixer    text eol=lf
+*.terrainlayer text eol=lf
+
+# Always binary
+*.png binary
+*.tga binary
+*.tif binary
+*.psd binary
+*.exr binary
+*.fbx binary
+*.FBX binary
+*.blend binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.ttf binary

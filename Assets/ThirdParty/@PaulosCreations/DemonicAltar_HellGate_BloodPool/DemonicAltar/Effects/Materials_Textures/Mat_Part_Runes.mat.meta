@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 191e8de76a60d4e4a979ae66a4dee8ae
+timeCreated: 1504161477
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 101442
+  packageName: DemonicAltar HellGate
+  packageVersion: 3.0
+  assetPath: Assets/@PaulosCreations/DemonicAltar_HellGate_BloodPool/DemonicAltar/Effects/Materials_Textures/Mat_Part_Runes.mat
+  uploadId: 594780
