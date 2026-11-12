@@ -8,6 +8,7 @@ namespace MetaAudioSDKDemo
     /// "Ember soul" look for a grabbable point source: a glowing core that pulses with how loud the
     /// source is right now, a halo, two orbiting rune rings, drifting embers, and ripples that radiate
     /// out from where the sound is emitted. Brightens while a hand hovers over or holds it.
+    /// The core doubles as the grab handle (see <see cref="FitGrabCollider"/>).
     /// Everything is unlit and additive, so it costs no realtime lights.
     /// </summary>
     public class PointSourceVisualizer : MonoBehaviour
@@ -70,7 +71,23 @@ namespace MetaAudioSDKDemo
         void Awake()
         {
             block = new MaterialPropertyBlock();
-            if (core != null) coreScale = core.transform.localScale;
+            if (core != null)
+            {
+                coreScale = core.transform.localScale;
+                FitGrabCollider();
+            }
+        }
+
+        // The core is what you grab: a sphere collider on it (part of the source's rigidbody) is fitted to its
+        // mesh, so the grab volume matches what you see and pulses along with it.
+        void FitGrabCollider()
+        {
+            var collider = core.GetComponent<SphereCollider>();
+            var mesh = core.TryGetComponent<MeshFilter>(out var filter) ? filter.sharedMesh : null;
+            if (collider == null || mesh == null) return;
+            var bounds = mesh.bounds;
+            collider.center = bounds.center;
+            collider.radius = Mathf.Max(bounds.extents.x, bounds.extents.y, bounds.extents.z);
         }
 
         void OnEnable()
