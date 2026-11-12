@@ -25,10 +25,11 @@ namespace MetaAudioSDKDemo
         [SerializeField, Range(0.5f, 8f)] float focus = 3f;
 
         [Header("Motes")]
-        [SerializeField] Vector2 motesPerSecond = new(1.5f, 40f);
+        [Tooltip("Silent to full loudness. Keep the particle system's Max Particles above the top rate times the longest lifetime.")]
+        [SerializeField] Vector2 motesPerSecond = new(4f, 160f);
         [SerializeField] Vector2 speed = new(0.6f, 1.1f);
-        [SerializeField] Vector2 lifetime = new(1.2f, 1.8f);
-        [SerializeField] Vector2 size = new(0.02f, 0.045f);
+        [SerializeField] Vector2 lifetime = new(1.4f, 2.2f);
+        [SerializeField] Vector2 size = new(0.03f, 0.06f);
         [SerializeField] Color color = new(0.6f, 0.85f, 1f, 1f);
 
         [Header("Response")]

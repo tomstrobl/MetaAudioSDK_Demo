@@ -524,10 +524,10 @@ MonoBehaviour:
   mouthGlow: {fileID: 1846405705}
   behind: 0.12
   focus: 3
-  motesPerSecond: {x: 1.5, y: 40}
+  motesPerSecond: {x: 4, y: 160}
   speed: {x: 0.6, y: 1.1}
-  lifetime: {x: 1.2, y: 1.8}
-  size: {x: 0.02, y: 0.045}
+  lifetime: {x: 1.4, y: 2.2}
+  size: {x: 0.03, y: 0.06}
   color: {r: 0.6, g: 0.85, b: 1, a: 1}
   glowIdle: 0.25
   glowLoud: 1.2
@@ -3421,7 +3421,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 200
+    maxNumParticles: 600
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -8439,10 +8439,10 @@ MonoBehaviour:
   mouthGlow: {fileID: 1741676953}
   behind: 0.12
   focus: 3
-  motesPerSecond: {x: 1.5, y: 40}
+  motesPerSecond: {x: 4, y: 160}
   speed: {x: 0.6, y: 1.1}
-  lifetime: {x: 1.2, y: 1.8}
-  size: {x: 0.02, y: 0.045}
+  lifetime: {x: 1.4, y: 2.2}
+  size: {x: 0.03, y: 0.06}
   color: {r: 0.6, g: 0.85, b: 1, a: 1}
   glowIdle: 0.25
   glowLoud: 1.2
@@ -11249,7 +11249,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 200
+    maxNumParticles: 600
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -24856,10 +24856,10 @@ MonoBehaviour:
   mouthGlow: {fileID: 904456239}
   behind: 0.12
   focus: 3
-  motesPerSecond: {x: 1.5, y: 40}
+  motesPerSecond: {x: 4, y: 160}
   speed: {x: 0.6, y: 1.1}
-  lifetime: {x: 1.2, y: 1.8}
-  size: {x: 0.02, y: 0.045}
+  lifetime: {x: 1.4, y: 2.2}
+  size: {x: 0.03, y: 0.06}
   color: {r: 0.6, g: 0.85, b: 1, a: 1}
   glowIdle: 0.25
   glowLoud: 1.2
@@ -26471,7 +26471,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 200
+    maxNumParticles: 600
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
