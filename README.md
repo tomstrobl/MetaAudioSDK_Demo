@@ -133,3 +133,8 @@ adb uninstall com.metaxraudio.demo
 | `SourceArt` | Blender sources of the custom models |
 | `scripts` | `install-quest.sh` for installing a build with adb |
 | `Builds` | APK output, not tracked by git |
+
+## License
+
+The project is released under the [MIT License](LICENSE).
+Third-party content (the asset packs in `Assets/ThirdParty`, the fonts in `Assets/Fonts` and the audio credited in `SourceArt/Audio/CREDITS.md`) keeps its own license.
