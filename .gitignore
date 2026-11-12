@@ -43,3 +43,7 @@ Thumbs.db
 # Blender autosave backups
 *.blend1
 *.blend2
+
+# Created empty by the Meta XR SDK during Android builds
+/Assets/StreamingAssets/
+/Assets/StreamingAssets.meta
